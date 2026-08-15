@@ -1,23 +1,22 @@
-# React Contact Cards
+# Like/Unlike Card
 
-A React-based Single Page Application (SPA) developed as part of the YHills internship project.
+A React-based mini project developed as part of the YHills internship program. The project demonstrates reusable React components, props, and state management using the `useState` Hook.
 
 ## Project Overview
 
-This project demonstrates the use of React components to create and dynamically display contact cards in a single-page application.
+This application displays multiple technology cards, with each card having its own title, like status, and Like/Unlike button.
 
-Users can enter contact information, and the application dynamically generates contact cards and displays them on the same page.
+The project demonstrates how React props can be used to pass different titles to a reusable Card component and how `useState` can be used to manage the Like/Unlike state independently for each card.
 
 ## Features
 
-- User input form for creating contact details
-- Dynamic creation of contact cards
-- Reusable React components
-- Modular component-based structure
-- Single Page Application (SPA)
-- Props used to pass data between components
-- Separate components for adding and displaying users
-- Responsive user interface
+- Reusable Card component
+- Different titles passed using props
+- Like/Unlike functionality
+- Liked/Not Liked status display
+- State management using React `useState`
+- Simple and responsive card-based interface
+- Hover effects and styled components
 
 ## Technologies Used
 
@@ -31,11 +30,7 @@ Users can enter contact information, and the application dynamically generates c
 
 ```text
 src/
-├── AddUser.jsx
 ├── App.jsx
-├── DisplayUsers.jsx
-├── UserCard.jsx
-├── main.jsx
-├── App.css
-├── index.css
-└── styles.css
+├── card.jsx
+├── index.jsx
+└── style.css
