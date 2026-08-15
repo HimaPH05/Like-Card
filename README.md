@@ -1,8 +1,41 @@
-# React + Vite
+# React Contact Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Single Page Application (SPA) developed as part of the YHills internship project.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates the use of React components to create and dynamically display contact cards in a single-page application.
+
+Users can enter contact information, and the application dynamically generates contact cards and displays them on the same page.
+
+## Features
+
+- User input form for creating contact details
+- Dynamic creation of contact cards
+- Reusable React components
+- Modular component-based structure
+- Single Page Application (SPA)
+- Props used to pass data between components
+- Separate components for adding and displaying users
+- Responsive user interface
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## Project Structure
+
+```text
+src/
+├── AddUser.jsx
+├── App.jsx
+├── DisplayUsers.jsx
+├── UserCard.jsx
+├── main.jsx
+├── App.css
+├── index.css
+└── styles.css
