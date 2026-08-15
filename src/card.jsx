@@ -8,11 +8,11 @@ const Card = ({ title }) => {
       <h2>{title}</h2>
 
       <p>
-        Status: <strong>{liked ? "Favorite" : "Not Favorite"}</strong>
+        Status: <strong>{liked ? "Liked" : "Not Liked"}</strong>
       </p>
 
       <button onClick={() => setLiked(!liked)}>
-        {liked ? "Remove Favorite" : "Add Favorite"}
+        {liked ? "Unlike" : "Like"}
       </button>
     </div>
   );

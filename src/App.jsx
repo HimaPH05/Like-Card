@@ -5,7 +5,7 @@ import "./style.css";
 function App() {
   return (
     <div className="app">
-      <h1>My Favorite Technologies</h1>
+      <h1>My Technologies</h1>
 
       <div className="card-container">
         <Card title="React" />
